@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TTW01.Domain\Entities\Actividade\" />
+    <Folder Include="TTW01.Domain\Entities\Destino\" />
+    <Folder Include="TTW01.Domain\Entities\ImagemPacote\" />
+    <Folder Include="TTW01.Domain\Entities\Itinerario\" />
+    <Folder Include="TTW01.Domain\Entities\Notificacao\" />
+    <Folder Include="TTW01.Domain\Entities\PacoteIncluido\" />
+    <Folder Include="TTW01.Domain\Entities\PacoteInfo\" />
+    <Folder Include="TTW01.Domain\Entities\PacoteNaoIncluido\" />
+    <Folder Include="TTW01.Domain\Entities\PacoteTuristico\" />
+    <Folder Include="TTW01.Domain\Entities\Pagamento\" />
+    <Folder Include="TTW01.Domain\Entities\ReservaDestino\" />
+    <Folder Include="TTW01.Domain\Entities\Reserva\" />
+    <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
+    <Folder Include="TTW01.Domain\Entities\Usuario\" />
+    <Folder Include="TTW01.Domain\Interface\" />
+    <Folder Include="TTW03.Infra\Repositories\" />
+    <Folder Include="TTW04.Controllers\" />
+    <Folder Include="TTW02.Application\" />
+  </ItemGroup>
+
+</Project>
