@@ -8,6 +8,5 @@ public interface IPacoteRepository : IRepository<PacoteEntity>
 
     Task<IEnumerable<PacoteEntity>> ObterPacotesActivos();
 
-    Task<> ObterPacotesPorDestino();
 
 }
