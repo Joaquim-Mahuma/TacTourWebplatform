@@ -16,18 +16,20 @@ public interface IRepository<T> where T : class
     Task<string> Cadastrar(T entity);
 
     //Método para actualizar um registo, recebe um Objecto, retorna uma String
-    Task<string> Actualizar(T entity);
+    Task<string> Actualizar(T model);
 
     //Método para deletar um registo, recebe o id e retorna uma String
     Task<string> Deletar(int id);
 
     //Método para pesquisar um registo, recebe o id e retorna ou não o Objecto
     // Pesquisa feita pelo sistema quando já se conhece o ID.
-    Task<T?> Pesquisar (int id);
+    Task<T?> PesquisarPorId (int id);
 
     //Metodo para listar todos os registos, não recebe parametros, retorna uma lista
     //de objectos (os registos)
     Task<IEnumerable<T>> Listagem();
+
+    Task<T> PesquisarPorTexto(string text);
 
 
 }

@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using TacTourWebplatform.TTW01.Domain.Entities.Actividade;
 using TacTourWebplatform.TTW01.Domain.Entities.Itinerario;
-using TacTourWebplatform.TTW01.Domain.Entities.ReservaDestino;
 using TacTourWebplatform.TTW01.Domain.Entities.TipoDestino;
 
 namespace TacTourWebplatform.TTW01.Domain.Entities.Destino;
@@ -28,8 +27,6 @@ public class DestinoEntity
     public ICollection<ItinerarioEntity> Itinerarios { get; set; } = [];
 
     public ICollection<ActividadeEntity> Actividades { get; set; } = [];
-
-    public ICollection<ReservaDestinoEntity> ReservaDestinos { get; set; } = [];
 
     public TipoDestinoEntity TipoDestino { get; set; }
 

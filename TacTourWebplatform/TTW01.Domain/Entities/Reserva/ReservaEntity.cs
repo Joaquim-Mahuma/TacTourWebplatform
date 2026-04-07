@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using TacTourWebplatform.TTW01.Domain.Entities.PacoteTuristico;
 using TacTourWebplatform.TTW01.Domain.Entities.Pagamento;
-using TacTourWebplatform.TTW01.Domain.Entities.ReservaDestino;
 using TacTourWebplatform.TTW01.Domain.Entities.Usuario;
 
 namespace TacTourWebplatform.TTW01.Domain.Entities.Reserva;
@@ -28,7 +27,7 @@ public class ReservaEntity
     public decimal PrecoTotal { get; set; }
 
     [Column("estado_reserva")]
-    public string EstadoReserva { get; set; }
+    public string EstadoReserva { get; set; } = string.Empty;
 
     [Column("id_usuario")]
     public int IdUsuario { get; set; }
@@ -40,10 +39,8 @@ public class ReservaEntity
     //*PROPRIEDADES NAVEGACIONAIS
     public UsuarioEntity Usuario { get; set; }
 
-    public PagamentoEntity Pagamento { get; set; }
+    public PagamentoEntity Pagamento { get; set; } = null!;
 
     public PacoteEntity Pacote { get; set; }
-
-    public ICollection<ReservaDestinoEntity> ReservaDestinos { get; set; } = [];
 
 }

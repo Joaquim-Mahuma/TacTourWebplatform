@@ -8,7 +8,6 @@ using TacTourWebplatform.TTW01.Domain.Entities.PacoteTuristico;
 using TacTourWebplatform.TTW01.Domain.Entities.Pagamento;
 using TacTourWebplatform.TTW01.Domain.Entities.Perfil;
 using TacTourWebplatform.TTW01.Domain.Entities.Reserva;
-using TacTourWebplatform.TTW01.Domain.Entities.ReservaDestino;
 using TacTourWebplatform.TTW01.Domain.Entities.TipoDestino;
 using TacTourWebplatform.TTW01.Domain.Entities.Usuario;
 using TacTourWebplatform.TTW01.Domain.Entities.Senha;
@@ -63,15 +62,12 @@ public class TacTourDbContext(DbContextOptions<TacTourDbContext> options) : DbCo
     public DbSet<ReservaEntity> TabelaReserva { get; set; }
 
     //* 13
-    public DbSet<ReservaDestinoEntity> TabelaReservaDestino { get; set; }
-
-    //* 14
     public DbSet<SenhaEntity> TabelaSenha { get; set; }
 
-    //* 15
+    //* 14
     public DbSet<TipoDestinoEntity> TabelaTipoDestino { get; set; }
 
-    //* 16
+    //* 15
     public DbSet<UsuarioEntity> TabelaUsuario { get; set; }
 
 
@@ -100,9 +96,6 @@ public class TacTourDbContext(DbContextOptions<TacTourDbContext> options) : DbCo
 
             //& [DESTINO] com [ITINERÁRIO]
             entity.HasMany(destino => destino.Itinerarios).WithOne(itinerario => itinerario.Destino).HasForeignKey(fk => fk.IdDestino);
-
-            //& [DESTINO] com [RESERVA_DESTINO]
-            entity.HasMany(destino => destino.ReservaDestinos).WithOne(reservadestino => reservadestino.Destino).HasForeignKey(fk => fk.IdDestino);
         });
 
 
@@ -159,9 +152,6 @@ public class TacTourDbContext(DbContextOptions<TacTourDbContext> options) : DbCo
         //* 7 - CLASSE PAGAMENTO_ENTITY ( PAGAMENTO )
         modelBuilder.Entity<PagamentoEntity>(entity =>
         {
-            //!____________________________________
-            //! RESOLVER ESTE PROBLEMA (modifiquei a ForeignKey com a classe. Está certo? Consultar o mentor)
-            //!____________________________________
             //& [PAGAMENTO] com [RESERVA]
             entity.HasOne(pagamento => pagamento.Reserva).WithOne(reserva => reserva.Pagamento).HasForeignKey<PagamentoEntity>(fk => fk.IdReserva);
         });
@@ -180,9 +170,6 @@ public class TacTourDbContext(DbContextOptions<TacTourDbContext> options) : DbCo
         {
             //& [RESERVA] com [USUARIO]
             entity.HasOne(reserva => reserva.Usuario).WithMany(usuario => usuario.Reservas).HasForeignKey(fk => fk.IdUsuario);
-
-            //& [RESERVA] com [RESERVA_DESTINO]
-            entity.HasMany(reserva => reserva.ReservaDestinos).WithOne(reservadestino => reservadestino.Reserva).HasForeignKey(fk => fk.IdReserva);
         });
 
 

@@ -23,7 +23,6 @@
     <Folder Include="TTW01.Domain\Entities\PacoteNaoIncluido\" />
     <Folder Include="TTW01.Domain\Entities\PacoteTuristico\" />
     <Folder Include="TTW01.Domain\Entities\Pagamento\" />
-    <Folder Include="TTW01.Domain\Entities\ReservaDestino\" />
     <Folder Include="TTW01.Domain\Entities\Reserva\" />
     <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
     <Folder Include="TTW01.Domain\Entities\Usuario\" />

@@ -5,8 +5,13 @@ namespace TacTourWebplatform.TTW01.Domain.Interface;
 
 public interface IPacoteRepository : IRepository<PacoteEntity>
 {
-    //* Método
-    Task<IEnumerable<PacoteEntity>> ObterPacotesActivos();
 
+    Task<IEnumerable<PacoteEntity>> ListarPacotesActivos();
+
+    Task<IEnumerable<PacoteEntity>> ListarPacotesPorDestino(int idDestino);
+
+    Task<IEnumerable<PacoteEntity>> ListarPacotesPorNome(string nome);
+
+    Task<IEnumerable<PacoteEntity>> ListarPacotesPorOperador(int idOperador);
 
 }

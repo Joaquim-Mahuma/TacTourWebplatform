@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using TacTourWebplatform.TTW01.Domain.Entities.PacoteTuristico;
 using TacTourWebplatform.TTW01.Domain.Interface;
 using TacTourWebplatform.TTW03.Infra.Data;
-using TacTourWebplatform.TTW03.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -5,11 +5,9 @@ namespace TacTourWebplatform.TTW01.Domain.Interface;
 
 public interface IUsuarioRepository : IRepository<UsuarioEntity>
 {
-    Task<UsuarioEntity?> ObterPorEmail(string email);
+    Task<UsuarioEntity?> BuscarPorEmail(string email);
 
     Task<bool> EmailExiste(string email);
 
-    Task<IEnumerable<UsuarioEntity>> ObterPorPerfil (int idPerfil); 
-
-    
+    Task<IEnumerable<UsuarioEntity>> ListarPorPerfil(int idPerfil);
 }
