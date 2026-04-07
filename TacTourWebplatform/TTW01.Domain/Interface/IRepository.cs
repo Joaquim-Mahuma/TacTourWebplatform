@@ -13,13 +13,13 @@ public interface IRepository<T> where T : class
 
     
     //Método para cadastrar um registo, recebe um Objecto, retorna uma String
-    Task<string> Cadastrar(T entity);
+    Task<string> Cadastrar(T model);
 
     //Método para actualizar um registo, recebe um Objecto, retorna uma String
     Task<string> Actualizar(T model);
 
     //Método para deletar um registo, recebe o id e retorna uma String
-    Task<string> Deletar(int id);
+    Task<string> Deletar(T model);
 
     //Método para pesquisar um registo, recebe o id e retorna ou não o Objecto
     // Pesquisa feita pelo sistema quando já se conhece o ID.
@@ -29,7 +29,7 @@ public interface IRepository<T> where T : class
     //de objectos (os registos)
     Task<IEnumerable<T>> Listagem();
 
-    Task<T> PesquisarPorTexto(string text);
+    Task<T?> PesquisarPorTexto(string texto);
 
 
 }
