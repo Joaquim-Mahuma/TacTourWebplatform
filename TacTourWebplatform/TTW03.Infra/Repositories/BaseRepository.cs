@@ -17,8 +17,8 @@ public class BaseRepository<T> : IRepository<T> where T : class
     {
         context.Set<T>().Update(model);
         return await context.SaveChangesAsync() > 0 ?
-            "Registo cadastrado com sucesso" :
-            "Não foi possível cadastrar o Registo";
+            "Registo actualizado com sucesso" :
+            "Não foi possível actualizar o Registo";
     }
 
     public async Task<string> Cadastrar(T model)

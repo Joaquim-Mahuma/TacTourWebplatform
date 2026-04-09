@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,8 +28,11 @@
     <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
     <Folder Include="TTW01.Domain\Entities\Usuario\" />
     <Folder Include="TTW01.Domain\Interface\" />
+    <Folder Include="TTW02.Application\TipoDestinoUseCase\" />
+    <Folder Include="TTW02.Application\TipoDestinoUseCase\Commands\" />
+    <Folder Include="TTW02.Application\TipoDestinoUseCase\DTO\" />
+    <Folder Include="TTW02.Application\TipoDestinoUseCase\Queries\" />
     <Folder Include="TTW03.Infra\Repositories\" />
-    <Folder Include="TTW04.Controllers\" />
     <Folder Include="TTW02.Application\" />
   </ItemGroup>
 

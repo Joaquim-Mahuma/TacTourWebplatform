@@ -1,42 +1,50 @@
 using Microsoft.EntityFrameworkCore;
-using TacTourWebplatform.TTW01.Domain.Entities.PacoteTuristico;
+using Microsoft.OpenApi;
 using TacTourWebplatform.TTW01.Domain.Interface;
+using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
 using TacTourWebplatform.TTW03.Infra.Data;
+using TacTourWebplatform.TTW03.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddOpenApi();  // Para gerar o documento OpenAPI
 
-//* A linha abaixo vai ao arquivo [appsettings.json], procura a seção:
-//*     "ConnectionStrings": {
-//*         "ConexaoLocal": "..."
-//*     }
-//* E pega o valor da string de conexão.
-//* O ponto de exclamação significa "Garanto que esse valor NÃO É NULO"
-//*                 |
-//*                 ↓
 
+
+//* DbContext
 string conexao = builder.Configuration.GetConnectionString("ConexaoLocal")!;
 
-//* Quando alguém precisar de TacTourDbContext, use essa configuração.E dentro de () signfica Meu DbContext vai usar PostgreSQL com essa string.
-//*     |
-//*     ↓
 builder.Services.AddDbContext<TacTourDbContext>(options => options.UseNpgsql(conexao));
 
 
-//* Pôr aqui as cenas do Repositories
+//* Repositories
+builder.Services.AddScoped<ITipoDestinoRepository, TipoDestinoRepository>();
+builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
 
+
+//* Uses Cases
+builder.Services.AddTransient<CadastrarTipoDestino>();
+builder.Services.AddTransient<ActualizarTipoDestino>();
+
+
+
+// ========== App ==========
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuração para Development
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.MapOpenApi();       // Gera o documento /openapi/v1.json
+
+    // === IMPORTANTE: Isto ativa a interface Swagger UI ===
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/openapi/v1.json", "TacTourWebplatform API v1");
+        options.RoutePrefix = "swagger";   // Para aceder em /swagger
+    });
 }
 
 app.UseHttpsRedirection();
@@ -44,5 +52,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Endpoint de teste simples (para confirmar que a API está viva)
+app.MapGet("/", () => "✅ API TacTourWebplatform está a funcionar!");
 
 app.Run();
