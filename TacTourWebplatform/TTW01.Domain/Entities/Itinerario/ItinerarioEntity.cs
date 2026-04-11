@@ -25,7 +25,7 @@ public class ItinerarioEntity
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public PacoteEntity Pacote { get; set; }
+    public PacoteEntity? Pacote { get; set; }
 
-    public DestinoEntity Destino { get; set; }
+    public DestinoEntity? Destino { get; set; }
 }

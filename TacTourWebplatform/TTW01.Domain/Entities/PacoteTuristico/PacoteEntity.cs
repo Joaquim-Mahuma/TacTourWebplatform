@@ -22,10 +22,10 @@ public class PacoteEntity
     public int Id { get; set; }
 
     [Column("titulo")]
-    public string TituloPacote { get; set; }
+    public string TituloPacote { get; set; } = string.Empty;
 
     [Column("descricao")]
-    public string DescricaoPacote { get; set; }
+    public string DescricaoPacote { get; set; } = string.Empty;
 
     [Column("preco_base")]
     public decimal PrecoBase { get; set; }
@@ -40,13 +40,13 @@ public class PacoteEntity
     public int Duracao { get; set; }
 
     [Column("ponto_encontro")]
-    public string PontoEncontro { get; set; }
+    public string PontoEncontro { get; set; } = string.Empty;
 
     [Column("ponto_largada")]
-    public string PontoLargada { get; set; }
+    public string PontoLargada { get; set; } = string.Empty;
 
     [Column("estado")]
-    public string EstadoPacote { get; set; }
+    public string EstadoPacote { get; set; } = string.Empty;
 
     [Column("id_operador")]
     public int IdOperador { get; set; }
@@ -55,7 +55,7 @@ public class PacoteEntity
     //*PROPRIEDADES NAVEGACIONAIS
 
 
-    public UsuarioEntity Operador { get; set; }
+    public UsuarioEntity? Operador { get; set; }
 
     public ICollection<PacoteIncluidoEntity> ItensIncluidos { get; set; } = [];
 

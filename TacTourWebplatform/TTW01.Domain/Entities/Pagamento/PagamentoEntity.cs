@@ -23,7 +23,7 @@ public class PagamentoEntity
     public DateTime DataConfirmacao { get; set; }
 
     [Column("estado_pagamento")]
-    public string EstadoPagamento { get; set; }
+    public string EstadoPagamento { get; set; } = string.Empty;
 
     [Column("id_reserva")]
     public int IdReserva { get; set; }
@@ -31,6 +31,6 @@ public class PagamentoEntity
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public ReservaEntity Reserva { get; set; }
+    public ReservaEntity? Reserva { get; set; } 
 
 }

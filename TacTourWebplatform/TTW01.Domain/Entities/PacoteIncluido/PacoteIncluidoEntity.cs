@@ -15,12 +15,12 @@ public class PacoteIncluidoEntity
     public int IdPacote { get; set; }
 
     [Column("descricao")]
-    public string Descricao { get; set; }
+    public string Descricao { get; set; } = string.Empty;
 
     [Column("ordem")]
     public int Ordem { get; set; }
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public PacoteEntity Pacote { get; set; }
+    public PacoteEntity? Pacote { get; set; }
 
 }

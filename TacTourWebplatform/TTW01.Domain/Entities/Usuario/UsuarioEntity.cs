@@ -18,22 +18,22 @@ public class UsuarioEntity
     public int Id { get; set; }
 
     [Column("nome")]
-    public string NomeUser { get; set; }
+    public string NomeUser { get; set; } = string.Empty;
 
     [Column("email")]
-    public string Email { get; set; }
+    public string Email { get; set; } = string.Empty;
 
     [Column("telefone")]
-    public string Telefone { get; set; }
+    public string Telefone { get; set; } = string.Empty;
 
     [Column("data_nascimento")]
     public DateTime DataNascimento { get; set; }
 
     [Column("foto")]
-    public string FotoUser { get; set; }
+    public string FotoUser { get; set; } = string.Empty;
 
     [Column("nacionalidade")]
-    public string Nacionalidade { get; set; }
+    public string Nacionalidade { get; set; } = string.Empty;
 
     [Column("criado_em")]
     public DateTime CriadoEm { get; set; }
@@ -49,9 +49,9 @@ public class UsuarioEntity
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public PerfilEntity Perfil { get; set; }
+    public virtual PerfilEntity? Perfil { get; set; }
 
-    public SenhaEntity Senha { get; set; }
+    public virtual SenhaEntity? Senha { get; set; }
 
     public ICollection<PacoteEntity> Pacotes { get; set; } = [];
 
