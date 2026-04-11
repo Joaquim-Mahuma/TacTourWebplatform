@@ -13,13 +13,13 @@ public class ActividadeEntity
     public int Id { get; set; }
 
     [Column("descricao")]
-    public string NomeActividade { get; set; }
+    public string NomeActividade { get; set; } = string.Empty;
 
     [Column("id_destino")]
     public int IdDestino { get; set; }
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public DestinoEntity Destino { get; set; }
+    public DestinoEntity? Destino { get; set; }
 
 }

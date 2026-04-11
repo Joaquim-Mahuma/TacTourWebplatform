@@ -14,10 +14,10 @@ public class NotificacaoEntity
     public int Id { get; set; }
 
     [Column("titulo")]
-    public string Titulo { get; set; }
+    public string Titulo { get; set; } = string.Empty;
 
     [Column("descricao")]
-    public string Descricao { get; set; }
+    public string Descricao { get; set; } = string.Empty;
 
     [Column("data_envio")]
     public DateTime DataEnvio { get; set; }
@@ -31,7 +31,7 @@ public class NotificacaoEntity
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public UsuarioEntity UsuarioOrigem { get; set; }
+    public UsuarioEntity? UsuarioOrigem { get; set; }
 
-    public UsuarioEntity UsuarioDestino { get; set; }
+    public UsuarioEntity? UsuarioDestino { get; set; }
 }

@@ -17,7 +17,7 @@ public class DestinoEntity
     public int Id { get; set; }
 
     [Column("nome")]
-    public string Destino { get; set; }
+    public string Destino { get; set; } = string.Empty;
 
     [Column("id_tipo")]
     public int IdTipoDestino { get; set; }
@@ -28,7 +28,7 @@ public class DestinoEntity
 
     public ICollection<ActividadeEntity> Actividades { get; set; } = [];
 
-    public TipoDestinoEntity TipoDestino { get; set; }
+    public TipoDestinoEntity? TipoDestino { get; set; }
 
 
 }

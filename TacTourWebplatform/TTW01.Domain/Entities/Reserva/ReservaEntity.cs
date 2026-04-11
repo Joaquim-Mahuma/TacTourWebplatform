@@ -15,7 +15,7 @@ public class ReservaEntity
     public int Id { get; set; }
 
     [Column("tipo_reserva")]
-    public string TipoReserva { get; set; }
+    public string TipoReserva { get; set; } = string.Empty;
 
     [Column("data_solicitacao")]
     public DateTime DataSolicitacao { get; set; }
@@ -37,10 +37,10 @@ public class ReservaEntity
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public UsuarioEntity Usuario { get; set; }
+    public UsuarioEntity? Usuario { get; set; }
 
-    public PagamentoEntity Pagamento { get; set; } = null!;
+    public PagamentoEntity? Pagamento { get; set; }
 
-    public PacoteEntity Pacote { get; set; }
+    public PacoteEntity? Pacote { get; set; }
 
 }

@@ -12,15 +12,15 @@ public class SenhaEntity
     public int Id { get; set; }
 
     [Column("senha_hash")]
-    public string SenhaHash { get; set; }
+    public string SenhaHash { get; set; } = string.Empty;
 
     [Column("senha_salt")]
-    public string SenhaSalt { get; set; }
+    public string SenhaSalt { get; set; } = string.Empty;
 
     [Column("id_usuario")]
     public int IdUsuario { get; set; }
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public UsuarioEntity Usuario { get; set; }
+    public UsuarioEntity? Usuario { get; set; }
 
 }

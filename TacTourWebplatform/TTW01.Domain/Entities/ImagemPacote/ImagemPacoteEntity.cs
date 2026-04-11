@@ -15,16 +15,16 @@ public class ImagemPacoteEntity
     public int Id { get; set; }
 
     [Column("url_image")]
-    public string UrlImage { get; set; }
+    public string UrlImage { get; set; } = string.Empty;
 
     [Column("descricao")]
-    public string DescricaoImage { get; set; }
+    public string DescricaoImage { get; set; } = string.Empty;
 
     [Column("id_pacote")]
     public int IdPacote { get; set; }
 
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public PacoteEntity Pacote { get; set; }
+    public PacoteEntity? Pacote { get; set; } 
 
 }
