@@ -1,1 +1,5 @@
-Este é um arquivo de teste
+Este é um arquivo de nota para mostrar que esta é a branch:
+
+
+
+__BRANCH SECUNDÁRIA__
