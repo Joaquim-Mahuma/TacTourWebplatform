@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
 using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.DTO;
+using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Queries;
 
 namespace TacTourWebplatform.TTW04.Controllers
 {
@@ -8,7 +9,11 @@ namespace TacTourWebplatform.TTW04.Controllers
     [ApiController]
     public class TipoDestinoController(
         CadastrarTipoDestino cadastrarTipoDestinoUseCase,
-        ActualizarTipoDestino actualizarTipoDestinoUseCase
+        ActualizarTipoDestino actualizarTipoDestinoUseCase,
+        DeletarTipoDestino deletarTipoDestinoUseCase,
+        PesquisarTipoDestinoId pesquisarTipoDestinoIdUseCase,
+        PesquisarTipoDestinoTexto pesquisarTipoDestinoTextoUseCase,
+        ListagemTipoDestino listagemTipoDestinoUseCase
     ) : ControllerBase
     {
         [HttpPost]
@@ -29,6 +34,43 @@ namespace TacTourWebplatform.TTW04.Controllers
             return resposta.Contains("sucesso") ? StatusCode(200, resposta) : StatusCode(500, resposta);
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletarTipoDestino(int id)
+        {
+
+            var resposta = await deletarTipoDestinoUseCase.DeletarAsync(id);
+
+            return resposta.Contains("não encontrado") ?
+            StatusCode(500, resposta) :
+            StatusCode(200, resposta);
+
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ListagemTipoDestino()
+        {
+            var resposta = await listagemTipoDestinoUseCase.ListagemAsync();
+            return Ok(resposta);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> PesquisarTipoDestinoId(int id)
+        {
+            var resposta = await pesquisarTipoDestinoIdUseCase.PesquisarIdAsync(id);
+
+            return resposta == null 
+            ? NotFound("Tipo de Destino não encontrado") 
+            : Ok(resposta);
+        }
+
+        [HttpGet("pesquisar")]
+        public async Task<IActionResult> PesquisarTipoDestinoTexto([FromQuery] string texto)
+        {
+            var resposta = await pesquisarTipoDestinoTextoUseCase.PesquisarTextoAsync(texto);
+            return resposta == null 
+            ? NotFound($"Nenhum tipo de destino encontrado com o texto: {texto}") 
+            : Ok(resposta);
+        }
     }
 
 }

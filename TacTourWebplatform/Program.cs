@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using TacTourWebplatform.TTW01.Domain.Interface;
 using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
+using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Queries;
 using TacTourWebplatform.TTW03.Infra.Data;
 using TacTourWebplatform.TTW03.Infra.Repositories;
 
@@ -27,6 +28,10 @@ builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
 //* Uses Cases
 builder.Services.AddTransient<CadastrarTipoDestino>();
 builder.Services.AddTransient<ActualizarTipoDestino>();
+builder.Services.AddTransient<DeletarTipoDestino>();
+builder.Services.AddTransient<PesquisarTipoDestinoId>();
+builder.Services.AddTransient<PesquisarTipoDestinoTexto>();
+builder.Services.AddTransient<ListagemTipoDestino>();
 
 
 

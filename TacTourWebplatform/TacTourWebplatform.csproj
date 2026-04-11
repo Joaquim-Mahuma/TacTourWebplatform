@@ -28,12 +28,9 @@
     <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
     <Folder Include="TTW01.Domain\Entities\Usuario\" />
     <Folder Include="TTW01.Domain\Interface\" />
-    <Folder Include="TTW02.Application\TipoDestinoUseCase\" />
     <Folder Include="TTW02.Application\TipoDestinoUseCase\Commands\" />
-    <Folder Include="TTW02.Application\TipoDestinoUseCase\DTO\" />
     <Folder Include="TTW02.Application\TipoDestinoUseCase\Queries\" />
     <Folder Include="TTW03.Infra\Repositories\" />
-    <Folder Include="TTW02.Application\" />
   </ItemGroup>
 
 </Project>

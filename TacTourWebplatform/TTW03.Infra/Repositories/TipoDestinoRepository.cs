@@ -18,7 +18,13 @@ public class TipoDestinoRepository : BaseRepository<TipoDestinoEntity>, ITipoDes
     //* MÉTODOS ESPECIFICOS DESTA ENTIDADE
     public async Task<TipoDestinoEntity?> PesquisarPorTexto(string texto)
     {
+        if (string.IsNullOrWhiteSpace(texto))
+            return null;
+
+        // Trim e ToLower para pesquisa mais amigável
+        string termoPesquisa = texto.Trim().ToLower();
+
         return await context.TabelaTipoDestino
-                    .FirstOrDefaultAsync(td => td.TipoDestino.Contains(texto));
+        .FirstOrDefaultAsync(td => td.TipoDestino.ToLower().Contains(termoPesquisa));
     }
 }

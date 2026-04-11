@@ -13,6 +13,8 @@ public class BaseRepository<T> : IRepository<T> where T : class
         this.context = context;
     }
 
+
+//* 1º MÉTODO DO CRUD - ACTUALIZAR
     public async Task<string> Actualizar(T model)
     {
         context.Set<T>().Update(model);
@@ -21,6 +23,7 @@ public class BaseRepository<T> : IRepository<T> where T : class
             "Não foi possível actualizar o Registo";
     }
 
+//* 2º MÉTODO DO CRUD - CADASTRAR
     public async Task<string> Cadastrar(T model)
     {
         await context.Set<T>().AddAsync(model);
@@ -29,6 +32,7 @@ public class BaseRepository<T> : IRepository<T> where T : class
             "Não foi possível cadastrar o Registo";
     }
 
+//* 3º MÉTODO DO CRUD - DELETAR
     public async Task<string> Deletar(int id)
     {
         var entity = await context.Set<T>().FindAsync(id);
@@ -45,11 +49,13 @@ public class BaseRepository<T> : IRepository<T> where T : class
             "Não foi possível eliminar o Registo";
     }
 
+//* 4º MÉTODO DO CRUD - LISTAGEM
     public async Task<IEnumerable<T>> Listagem()
     {
         return await context.Set<T>().ToListAsync();
     }
 
+//* 5º MÉTODO DO CRUD - PESQUISAR POR ID
     public async Task<T?> PesquisarPorId(int id)
     {
         return await context.Set<T>().FindAsync(id);

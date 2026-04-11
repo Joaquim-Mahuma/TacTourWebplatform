@@ -17,7 +17,7 @@ public class TipoDestinoEntity
     public int Id { get; set; }
 
     [Column("nome")]
-    public string TipoDestino { get; set; }
+    public string TipoDestino { get; set; } = string.Empty;
 
 
 
