@@ -21,6 +21,6 @@ public class SenhaEntity
     public int IdUsuario { get; set; }
 
     //*PROPRIEDADES NAVEGACIONAIS
-    public UsuarioEntity? Usuario { get; set; }
+    public UsuarioEntity Usuario { get; set; } = null!;
 
 }
