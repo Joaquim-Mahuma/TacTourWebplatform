@@ -2,4 +2,4 @@ Este é um arquivo de nota para mostrar que esta é a branch:
 
 
 
-__BRANCH SECUNDÁRIA__
+__BRANCH SECUNDÁRIA - TODOS OS DESENVOLVIMENTOS SÃO FEITOS AQUI__
