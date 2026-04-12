@@ -27,7 +27,7 @@ public class UsuarioEntity
     public string Telefone { get; set; } = string.Empty;
 
     [Column("data_nascimento")]
-    public DateTime DataNascimento { get; set; }
+    public DateOnly DataNascimento { get; set; }
 
     [Column("foto")]
     public string FotoUser { get; set; } = string.Empty;
@@ -35,17 +35,8 @@ public class UsuarioEntity
     [Column("nacionalidade")]
     public string Nacionalidade { get; set; } = string.Empty;
 
-    [Column("criado_em")]
-    public DateTime CriadoEm { get; set; }
-
-    [Column("ultimo_login")]
-    public DateTime UltimoLogin { get; set; }
-
-    [Column("deletado_em")]
-    public DateTime DeletadoEm { get; set; }
-
     [Column("id_perfil")]
-    public int IdPerfil { get; set; }
+    public int? IdPerfil { get; set; }
 
 
     //*PROPRIEDADES NAVEGACIONAIS

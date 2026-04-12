@@ -28,7 +28,6 @@
     <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
     <Folder Include="TTW01.Domain\Entities\Usuario\" />
     <Folder Include="TTW01.Domain\Interface\" />
-    <Folder Include="TTW02.Application\Command\" />
     <Folder Include="TTW02.Application\Interfaces\" />
     <Folder Include="TTW02.Application\Interfaces\Password\" />
     <Folder Include="TTW02.Application\TipoDestinoUseCase\Commands\" />
@@ -36,7 +35,6 @@
     <Folder Include="TTW02.Application\UsuarioUseCase\" />
     <Folder Include="TTW02.Application\UsuarioUseCase\Command\" />
     <Folder Include="TTW02.Application\UsuarioUseCase\DTO\" />
-    <Folder Include="TTW02.Application\UsuarioUseCase\Queries\" />
     <Folder Include="TTW03.Infra\Repositories\" />
     <Folder Include="TTW03.Infra\Services\" />
     <Folder Include="TTW03.Infra\Services\Password\" />

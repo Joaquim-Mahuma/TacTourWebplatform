@@ -10,8 +10,7 @@ public class TipoDestinoRepository : BaseRepository<TipoDestinoEntity>, ITipoDes
 {
 
     //* CONSTRUTOR (TODO MÉTODO TEM)
-    public TipoDestinoRepository(TacTourDbContext context)
-        : base(context)
+    public TipoDestinoRepository(TacTourDbContext context) : base(context)
     {
     }
 

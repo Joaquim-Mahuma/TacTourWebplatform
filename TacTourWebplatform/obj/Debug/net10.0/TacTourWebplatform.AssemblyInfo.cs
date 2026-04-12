@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TacTourWebplatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11af2f60398d54e8188103cc773bf24496f2e446")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffe5f8a2711d527ffcc532636c07a3c29c5bdd64")]
 [assembly: System.Reflection.AssemblyProductAttribute("TacTourWebplatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TacTourWebplatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
