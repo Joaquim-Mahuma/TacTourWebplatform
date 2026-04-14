@@ -37,9 +37,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
+
+//* Busca a string de conexâo ao Banco de Dados que está no arquivo appsettings.json
 string conexao = builder.Configuration.GetConnectionString("ConexaoLocal")!;
 
+
+//* Esta linha: 
+
+//*  1 - UseNpgsql → indica que estás a usar PostgreSQL (injeção de dependência)
+
+//*  2 - Passa a string de conexão para conectar à base de dados
 builder.Services.AddDbContext<TacTourDbContext>(options => options.UseNpgsql(conexao));
+
+
+
+//* ============ Interfaces & Repositorios ============ *\\ 
 
 builder.Services.AddScoped<IActividadeRepository, ActividadeRepository>();
 builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
@@ -58,6 +70,7 @@ builder.Services.AddScoped<ITipoDestinoRepository, TipoDestinoRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IPasswordHash, PasswordHashService>();
 
+//* ============ 1 - Casos de Uso - ACTIVIDADE ============ *\\ 
 builder.Services.AddTransient<CadastrarActividade>();
 builder.Services.AddTransient<ActualizarActividade>();
 builder.Services.AddTransient<DeletarActividade>();
@@ -65,11 +78,15 @@ builder.Services.AddTransient<ListagemActividade>();
 builder.Services.AddTransient<PesquisarActividadeId>();
 builder.Services.AddTransient<ListarActividadePorDestino>();
 
+
+//* ============ 2 - Casos de Uso - DESTINO ============ *\\ 
 builder.Services.AddTransient<CadastrarDestino>();
 builder.Services.AddTransient<ActualizarDestino>();
 builder.Services.AddTransient<DeletarDestino>();
 builder.Services.AddTransient<ListarDestinoPorTipo>();
 
+
+//* ============ 3 - Casos de Uso - IMAGEM PACOTE ============ *\\ 
 builder.Services.AddTransient<CadastrarImagemPacote>();
 builder.Services.AddTransient<ActualizarImagemPacote>();
 builder.Services.AddTransient<DeletarImagemPacote>();
@@ -77,6 +94,8 @@ builder.Services.AddTransient<ListagemImagemPacote>();
 builder.Services.AddTransient<PesquisarImagemPacoteId>();
 builder.Services.AddTransient<ListarImagemPacotePorPacote>();
 
+
+//* ============ 4 - Casos de Uso - ITINERARIO ============ *\\ 
 builder.Services.AddTransient<CadastrarItinerario>();
 builder.Services.AddTransient<ActualizarItinerario>();
 builder.Services.AddTransient<DeletarItinerario>();
@@ -84,6 +103,8 @@ builder.Services.AddTransient<ListagemItinerario>();
 builder.Services.AddTransient<PesquisarItinerarioId>();
 builder.Services.AddTransient<ListarItinerarioPorPacote>();
 
+
+//* ============ 5 - Casos de Uso - NOTIFICAÇÃO ============ *\\ 
 builder.Services.AddTransient<CadastrarNotificacao>();
 builder.Services.AddTransient<ActualizarNotificacao>();
 builder.Services.AddTransient<DeletarNotificacao>();
@@ -91,6 +112,8 @@ builder.Services.AddTransient<ListagemNotificacao>();
 builder.Services.AddTransient<PesquisarNotificacaoId>();
 builder.Services.AddTransient<ListarNotificacaoPorUsuario>();
 
+
+//* ============ 6 - Casos de Uso - PACOTE INCLUIDO ============ *\\ 
 builder.Services.AddTransient<CadastrarPacoteIncluido>();
 builder.Services.AddTransient<ActualizarPacoteIncluido>();
 builder.Services.AddTransient<DeletarPacoteIncluido>();
@@ -98,6 +121,7 @@ builder.Services.AddTransient<ListagemPacoteIncluido>();
 builder.Services.AddTransient<PesquisarPacoteIncluidoId>();
 builder.Services.AddTransient<ListarPacoteIncluidoPorPacote>();
 
+//* ============ 7 - Casos de Uso - PACOTE INFO ============ *\\ 
 builder.Services.AddTransient<CadastrarPacoteInfo>();
 builder.Services.AddTransient<ActualizarPacoteInfo>();
 builder.Services.AddTransient<DeletarPacoteInfo>();
@@ -105,6 +129,8 @@ builder.Services.AddTransient<ListagemPacoteInfo>();
 builder.Services.AddTransient<PesquisarPacoteInfoId>();
 builder.Services.AddTransient<ListarPacoteInfoPorPacote>();
 
+
+//* ============ 8 - Casos de Uso - PACOTE NÃO INCLUIDO ============ *\\ 
 builder.Services.AddTransient<CadastrarPacoteNaoIncluido>();
 builder.Services.AddTransient<ActualizarPacoteNaoIncluido>();
 builder.Services.AddTransient<DeletarPacoteNaoIncluido>();
@@ -112,6 +138,8 @@ builder.Services.AddTransient<ListagemPacoteNaoIncluido>();
 builder.Services.AddTransient<PesquisarPacoteNaoIncluidoId>();
 builder.Services.AddTransient<ListarPacoteNaoIncluidoPorPacote>();
 
+
+//* ============ 9 - Casos de Uso - PACOTE TURISTICO ============ *\\ 
 builder.Services.AddTransient<CadastrarPacoteTuristico>();
 builder.Services.AddTransient<ActualizarPacoteTuristico>();
 builder.Services.AddTransient<DeletarPacoteTuristico>();
@@ -122,6 +150,8 @@ builder.Services.AddTransient<ListarPacoteTuristicoPorDestino>();
 builder.Services.AddTransient<ListarPacoteTuristicoPorNome>();
 builder.Services.AddTransient<ListarPacoteTuristicoPorOperador>();
 
+
+//* ============ 10 - Casos de Uso - PAGAMENTO ============ *\\ 
 builder.Services.AddTransient<CadastrarPagamento>();
 builder.Services.AddTransient<ActualizarPagamento>();
 builder.Services.AddTransient<DeletarPagamento>();
@@ -130,12 +160,16 @@ builder.Services.AddTransient<PesquisarPagamentoId>();
 builder.Services.AddTransient<PesquisarPagamentoPorReserva>();
 builder.Services.AddTransient<ListarPagamentoPorEstado>();
 
+
+//* ============ 11 - Casos de Uso - PERFIL ============ *\\ 
 builder.Services.AddTransient<CadastrarPerfil>();
 builder.Services.AddTransient<ActualizarPerfil>();
 builder.Services.AddTransient<DeletarPerfil>();
 builder.Services.AddTransient<ListagemPerfil>();
 builder.Services.AddTransient<PesquisarPerfilId>();
 
+
+//* ============ 12 - Casos de Uso - RESERVA ============ *\\ 
 builder.Services.AddTransient<CadastrarReserva>();
 builder.Services.AddTransient<ActualizarReserva>();
 builder.Services.AddTransient<DeletarReserva>();
@@ -146,6 +180,8 @@ builder.Services.AddTransient<ListarReservaPorPacote>();
 builder.Services.AddTransient<ListarReservaPorEstado>();
 builder.Services.AddTransient<ListarReservaPorTipo>();
 
+
+//* ============ 13 - Casos de Uso - TIPO DESTINO ============ *\\ 
 builder.Services.AddTransient<CadastrarTipoDestino>();
 builder.Services.AddTransient<ActualizarTipoDestino>();
 builder.Services.AddTransient<DeletarTipoDestino>();
@@ -153,6 +189,7 @@ builder.Services.AddTransient<PesquisarTipoDestinoId>();
 builder.Services.AddTransient<PesquisarTipoDestinoTexto>();
 builder.Services.AddTransient<ListagemTipoDestino>();
 
+//* ============ 14 - Casos de Uso - USUARIO ============ *\\ 
 builder.Services.AddTransient<CadastrarUsuario>();
 
 var app = builder.Build();

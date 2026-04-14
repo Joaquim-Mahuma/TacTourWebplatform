@@ -176,9 +176,6 @@ public class TacTourDbContext(DbContextOptions<TacTourDbContext> options) : DbCo
         //* 10 - CLASSE SENHA_ENTITY ( SENHA )
         modelBuilder.Entity<SenhaEntity>(entity =>
         {
-            //!____________________________________
-            //! RESOLVER ESTE PROBLEMA (modifiquei a ForeignKey com a classe. Está certo? Consultar o mentor)
-            //!____________________________________
             //& [SENHA] com [USUARIO]
             entity.HasOne(senha => senha.Usuario).WithOne(usuario => usuario.Senha).HasForeignKey<SenhaEntity>(fk => fk.IdUsuario);
         });
