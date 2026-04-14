@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using TacTourWebplatform.TTW01.Domain.Entities.Usuario;
 using TacTourWebplatform.TTW01.Domain.Interface;
+using TacTourWebplatform.TTW02.Application.DestinoUseCase.Command;
+using TacTourWebplatform.TTW02.Application.DestinoUseCase.Queries;
 using TacTourWebplatform.TTW02.Application.Interfaces.Password;
 using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
 using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Queries;
@@ -30,6 +32,9 @@ builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IPasswordHash, PasswordHashService>();
 builder.Services.AddScoped<ISenhaRepository, SenhaRepository>();
+builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
+builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
+
 
 
 
@@ -43,6 +48,12 @@ builder.Services.AddTransient<PesquisarTipoDestinoId>();
 builder.Services.AddTransient<PesquisarTipoDestinoTexto>();
 builder.Services.AddTransient<ListagemTipoDestino>();
 builder.Services.AddTransient<CadastrarUsuario>();
+builder.Services.AddTransient<CadastrarDestino>();
+builder.Services.AddTransient<ListarDestinoPorTipo>();
+builder.Services.AddTransient<DeletarDestino>();
+builder.Services.AddTransient<ActualizarDestino>();
+
+
 
 
 
