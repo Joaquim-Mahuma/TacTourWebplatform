@@ -16,7 +16,7 @@ public class PerfilEntity
     public int Id { get; set; }
 
     [Column("tipo_perfil")]
-    public string TipoPerfil { get; set; } 
+    public string TipoPerfil { get; set; } = string.Empty;
 
 
 
