@@ -29,7 +29,6 @@
     <Folder Include="TTW01.Domain\Entities\Usuario\" />
     <Folder Include="TTW01.Domain\Interface\" />
     <Folder Include="TTW02.Application\DestinoUseCase\Command\" />
-    <Folder Include="TTW02.Application\DestinoUseCase\Queries\" />
     <Folder Include="TTW02.Application\Interfaces\" />
     <Folder Include="TTW02.Application\Interfaces\Password\" />
     <Folder Include="TTW02.Application\TipoDestinoUseCase\Commands\" />

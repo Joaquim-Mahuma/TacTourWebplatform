@@ -84,6 +84,7 @@ builder.Services.AddTransient<CadastrarDestino>();
 builder.Services.AddTransient<ActualizarDestino>();
 builder.Services.AddTransient<DeletarDestino>();
 builder.Services.AddTransient<ListarDestinoPorTipo>();
+builder.Services.AddTransient<ListagemDestino>();
 
 
 //* ============ 3 - Casos de Uso - IMAGEM PACOTE ============ *\\ 
@@ -189,8 +190,13 @@ builder.Services.AddTransient<PesquisarTipoDestinoId>();
 builder.Services.AddTransient<PesquisarTipoDestinoTexto>();
 builder.Services.AddTransient<ListagemTipoDestino>();
 
+
 //* ============ 14 - Casos de Uso - USUARIO ============ *\\ 
 builder.Services.AddTransient<CadastrarUsuario>();
+
+
+
+
 
 var app = builder.Build();
 

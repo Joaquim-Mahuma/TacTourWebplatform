@@ -2,7 +2,7 @@ using System;
 
 namespace TacTourWebplatform.TTW02.Application.DestinoUseCase.DTO;
 
-public class ListarDestinoPorTipoDTO
+public class ListarDestinoDTO
 {
     public int DestinoId { get; set; }
 

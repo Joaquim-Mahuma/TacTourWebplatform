@@ -22,8 +22,16 @@ public class UsuarioRepository : BaseRepository<UsuarioEntity>, IUsuarioReposito
 
     public async Task<UsuarioEntity?> PesquisarPorEmail(string email)
     {
-        var usuario = await context.TabelaUsuario.FirstOrDefaultAsync(u => u.Email == email);
+        var usuario = await context.TabelaUsuario
+        .FirstOrDefaultAsync(u => u.Email == email);
 
         return usuario;
+    }
+
+    public async Task<IEnumerable<UsuarioEntity>> ListarPorPerfil(int idPerfil)
+    {
+        return await this.context.TabelaUsuario
+        .Where(u => u.IdPerfil == idPerfil)
+        .ToListAsync();
     }
 }

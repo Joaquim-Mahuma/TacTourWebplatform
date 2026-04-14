@@ -7,18 +7,18 @@ namespace TacTourWebplatform.TTW02.Application.DestinoUseCase.Queries;
 
 public class ListarDestinoPorTipo(IDestinoRepository repository)
 {
-    //* Recebe o texto do filtro como parâmetro
-    public async Task<IEnumerable<ListarDestinoPorTipoDTO>> ListarDestinoPorTipoAsync(int id)
+    //* Recebe o id do filtro(tipo de destino) como parâmetro
+    public async Task<IEnumerable<ListarDestinoDTO>> ListarDestinoPorTipoAsync(int id)
     {
         //* Chama o método específico do repository
         var lista = await repository.ListarPorTipo(id);
 
         //* Converte igual ao padrão base
-        return lista.Select(x => new ListarDestinoPorTipoDTO
+        return lista.Select(x => new ListarDestinoDTO
         {
             DestinoId = x.Id,
             DestinoName = x.Destino,
-            TipoDestinoId = x.IdTipoDestino,
+            TipoDestinoId = x.IdTipoDestino
         }).ToList();
     }
 

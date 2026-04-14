@@ -3,8 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using TacTourWebplatform.TTW02.Application.DestinoUseCase.Command;
 using TacTourWebplatform.TTW02.Application.DestinoUseCase.DTO;
 using TacTourWebplatform.TTW02.Application.DestinoUseCase.Queries;
-using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
-using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.DTO;
 
 namespace TacTourWebplatform.TTW04.Controllers
 {
@@ -14,7 +12,8 @@ namespace TacTourWebplatform.TTW04.Controllers
         CadastrarDestino cadastrarDestinoUseCase,
         ListarDestinoPorTipo listarDestinoPorTipoUseCase,
         DeletarDestino deletarDestinoUseCase,
-        ActualizarDestino actualziarDestinoUseCase
+        ActualizarDestino actualziarDestinoUseCase,
+        ListagemDestino listagemDestinoUseCase
     ) : ControllerBase
     {
         [HttpPost]
@@ -44,6 +43,12 @@ namespace TacTourWebplatform.TTW04.Controllers
 
             var resposta = await actualziarDestinoUseCase.ActualizarAsync(id, dto);
             return resposta.Contains("sucesso") ? StatusCode(200, resposta) : StatusCode(500, resposta);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ListagemDestino() {
+            var resposta = await listagemDestinoUseCase.ListagemAsync();
+            return Ok(resposta);
         }
 
         [HttpGet("d-portipo/{id}")]
