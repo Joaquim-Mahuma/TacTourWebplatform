@@ -85,6 +85,7 @@ builder.Services.AddTransient<ActualizarDestino>();
 builder.Services.AddTransient<DeletarDestino>();
 builder.Services.AddTransient<ListarDestinoPorTipo>();
 builder.Services.AddTransient<ListagemDestino>();
+builder.Services.AddTransient<BuscarDestinoComActividades>();
 
 
 //* ============ 3 - Casos de Uso - IMAGEM PACOTE ============ *\\ 

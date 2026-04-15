@@ -15,4 +15,11 @@ public class DestinoRepository : BaseRepository<DestinoEntity>, IDestinoReposito
     {
         return await context.TabelaDestino.Where(d => d.IdTipoDestino == idTipo).ToListAsync();
     }
+
+    public async Task<DestinoEntity?> BuscarComActividades(int idDestino)
+    {
+        return await context.TabelaDestino
+            .Include(d => d.Actividades)
+            .FirstOrDefaultAsync(d => d.Id == idDestino);
+    }
 }

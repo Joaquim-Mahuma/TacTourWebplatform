@@ -58,8 +58,8 @@ namespace TacTourWebplatform.TTW04.Controllers
         {
             var resposta = await pesquisarTipoDestinoIdUseCase.PesquisarIdAsync(id);
 
-            return resposta == null 
-            ? NotFound("Tipo de Destino não encontrado") 
+            return resposta == null
+            ? NotFound("Tipo de Destino não encontrado")
             : Ok(resposta);
         }
 
@@ -67,8 +67,8 @@ namespace TacTourWebplatform.TTW04.Controllers
         public async Task<IActionResult> PesquisarTipoDestinoTexto([FromQuery] string texto)
         {
             var resposta = await pesquisarTipoDestinoTextoUseCase.PesquisarTextoAsync(texto);
-            return resposta == null 
-            ? NotFound($"Nenhum tipo de destino encontrado com o texto: {texto}") 
+            return resposta == null
+            ? NotFound($"Nenhum tipo de destino encontrado com o texto: {texto}")
             : Ok(resposta);
         }
     }

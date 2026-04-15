@@ -13,7 +13,8 @@ namespace TacTourWebplatform.TTW04.Controllers
         ListarDestinoPorTipo listarDestinoPorTipoUseCase,
         DeletarDestino deletarDestinoUseCase,
         ActualizarDestino actualziarDestinoUseCase,
-        ListagemDestino listagemDestinoUseCase
+        ListagemDestino listagemDestinoUseCase,
+        BuscarDestinoComActividades buscarDestinoComActividadesUseCase
     ) : ControllerBase
     {
         [HttpPost]
@@ -56,6 +57,15 @@ namespace TacTourWebplatform.TTW04.Controllers
         {
             var resposta = await listarDestinoPorTipoUseCase.ListarDestinoPorTipoAsync(id);
             return Ok(resposta);
+        }
+
+        [HttpGet("{id}/actividades")]
+        public async Task<IActionResult> BuscarDestinoComActividades([FromRoute] int id)
+        {
+            var resposta = await buscarDestinoComActividadesUseCase.BuscarDestinocomActividadesAsync(id);
+            return resposta is null 
+            ? NotFound("Destino não encontrado") 
+            : Ok(resposta);
         }
 
 
