@@ -2,4 +2,4 @@ Este é um arquivo de nota para mostrar que esta é a branch:
 
 
 
-=== BRANCH DA IA- TESTE PARA VER SE O CODEX CONSEGUE GERAR AS PASTAS DOS USECASES COM OS METODOS === 
+=== BRANCH PARA CRIAÇÃO COMPLETA DOS USECASES ===
