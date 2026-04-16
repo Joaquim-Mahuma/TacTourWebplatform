@@ -59,7 +59,7 @@ namespace TacTourWebplatform.TTW04.Controllers
             return Ok(resposta);
         }
 
-        [HttpGet("{id}/actividades")]
+        [HttpGet("actividades/{id}")]
         public async Task<IActionResult> BuscarDestinoComActividades([FromRoute] int id)
         {
             var resposta = await buscarDestinoComActividadesUseCase.BuscarDestinocomActividadesAsync(id);
