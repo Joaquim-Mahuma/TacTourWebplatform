@@ -1,5 +1,0 @@
-Este é um arquivo de nota para mostrar que esta é a branch:
-
-
-
-__MAIN__

@@ -4,33 +4,17 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TacTourWebplatform</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="TTW01.Domain\Entities\Actividade\" />
-    <Folder Include="TTW01.Domain\Entities\Destino\" />
-    <Folder Include="TTW01.Domain\Entities\ImagemPacote\" />
-    <Folder Include="TTW01.Domain\Entities\Itinerario\" />
-    <Folder Include="TTW01.Domain\Entities\Notificacao\" />
-    <Folder Include="TTW01.Domain\Entities\PacoteIncluido\" />
-    <Folder Include="TTW01.Domain\Entities\PacoteInfo\" />
-    <Folder Include="TTW01.Domain\Entities\PacoteNaoIncluido\" />
-    <Folder Include="TTW01.Domain\Entities\PacoteTuristico\" />
-    <Folder Include="TTW01.Domain\Entities\Pagamento\" />
-    <Folder Include="TTW01.Domain\Entities\Reserva\" />
-    <Folder Include="TTW01.Domain\Entities\TipoDestino\" />
-    <Folder Include="TTW01.Domain\Entities\Usuario\" />
-    <Folder Include="TTW01.Domain\Interface\" />
-    <Folder Include="TTW02.Application\TipoDestinoUseCase\Commands\" />
-    <Folder Include="TTW02.Application\TipoDestinoUseCase\Queries\" />
-    <Folder Include="TTW03.Infra\Repositories\" />
   </ItemGroup>
 
 </Project>
