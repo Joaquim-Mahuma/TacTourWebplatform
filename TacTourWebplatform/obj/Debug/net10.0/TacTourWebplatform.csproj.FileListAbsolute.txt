@@ -1,42 +1,167 @@
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\appsettings.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.staticwebassets.endpoints.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.exe
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.deps.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.runtimeconfig.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\TacTourWebplatform.pdb
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Microsoft.OpenApi.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Npgsql.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.csproj.AssemblyReference.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.AssemblyInfoInputs.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.AssemblyInfo.cs
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.csproj.CoreCompileInputs.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.sourcelink.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\scopedcss\bundle\TacTourWebplatform.styles.css
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourW.2377C9B4.Up2Date
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\refint\TacTourWebplatform.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.pdb
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\TacTourWebplatform.genruntimeconfig.cache
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\obj\Debug\net10.0\ref\TacTourWebplatform.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\HP ELITEBOOK G7\Desktop\TacTourWebplatform\TacTourWebplatform\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/appsettings.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.staticwebassets.endpoints.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.exe
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.deps.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.runtimeconfig.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.pdb
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Npgsql.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.csproj.AssemblyReference.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.AssemblyInfoInputs.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.AssemblyInfo.cs
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.csproj.CoreCompileInputs.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.sourcelink.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/scopedcss/bundle/TacTourWebplatform.styles.css
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourW.2377C9B4.Up2Date
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/refint/TacTourWebplatform.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.pdb
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.genruntimeconfig.cache
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/ref/TacTourWebplatform.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/HP ELITEBOOK G7/Desktop/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/appsettings.Development.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/appsettings.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.staticwebassets.endpoints.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.deps.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.runtimeconfig.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/TacTourWebplatform.pdb
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Npgsql.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.csproj.AssemblyReference.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.AssemblyInfoInputs.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.AssemblyInfo.cs
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.csproj.CoreCompileInputs.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cs
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.MvcApplicationPartsAssemblyInfo.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.sourcelink.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/scopedcss/bundle/TacTourWebplatform.styles.css
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.json.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.development.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/swae.build.ex.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourW.2377C9B4.Up2Date
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/refint/TacTourWebplatform.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.pdb
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/TacTourWebplatform.genruntimeconfig.cache
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/Debug/net10.0/ref/TacTourWebplatform.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Humanizer.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.Build.Framework.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Mono.TextTemplating.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/Newtonsoft.Json.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.CodeDom.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.Composition.AttributedModel.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.Composition.Convention.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.Composition.Hosting.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.Composition.Runtime.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/System.Composition.TypedParts.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP ELITEBOOK G7\\Desktop\\TacTourWebplatform\\TacTourWebplatform\\TacTourWebplatform.csproj": {}
+    "/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/TacTourWebplatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP ELITEBOOK G7\\Desktop\\TacTourWebplatform\\TacTourWebplatform\\TacTourWebplatform.csproj": {
+    "/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/TacTourWebplatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP ELITEBOOK G7\\Desktop\\TacTourWebplatform\\TacTourWebplatform\\TacTourWebplatform.csproj",
+        "projectUniqueName": "/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/TacTourWebplatform.csproj",
         "projectName": "TacTourWebplatform",
-        "projectPath": "C:\\Users\\HP ELITEBOOK G7\\Desktop\\TacTourWebplatform\\TacTourWebplatform\\TacTourWebplatform.csproj",
-        "packagesPath": "C:\\Users\\HP ELITEBOOK G7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP ELITEBOOK G7\\Desktop\\TacTourWebplatform\\TacTourWebplatform\\obj\\",
+        "projectPath": "/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/TacTourWebplatform.csproj",
+        "packagesPath": "/Users/jesseingles/.nuget/packages/",
+        "outputPath": "/Users/jesseingles/Dev/tacTour/TacTourWebplatform/TacTourWebplatform/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP ELITEBOOK G7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jesseingles/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,19 +38,21 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.6, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

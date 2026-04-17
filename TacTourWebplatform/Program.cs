@@ -1,64 +1,68 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi;
-using TacTourWebplatform.TTW01.Domain.Interface;
-using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Commands;
-using TacTourWebplatform.TTW02.Application.TipoDestinoUseCase.Queries;
-using TacTourWebplatform.TTW03.Infra.Data;
-using TacTourWebplatform.TTW03.Infra.Repositories;
+using TacTourWebplatform.Application.Dashboard;
+using TacTourWebplatform.Application.Destinos;
+using TacTourWebplatform.Application.Equipa;
+using TacTourWebplatform.Application.Pacotes;
+using TacTourWebplatform.Application.Reservas;
+using TacTourWebplatform.Application.TiposDestino;
+using TacTourWebplatform.Domain.Interfaces;
+using TacTourWebplatform.Infrastructure.Data;
+using TacTourWebplatform.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddControllers();
-builder.Services.AddOpenApi();  // Para gerar o documento OpenAPI
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? builder.Configuration.GetConnectionString("ConexaoLocal");
 
+if (string.IsNullOrWhiteSpace(connectionString))
+    throw new InvalidOperationException("Connection string não configurada.");
 
-//* DbContext
-string conexao = builder.Configuration.GetConnectionString("ConexaoLocal")!;
+builder.Services.AddDbContext<TacTourDbContext>(options => options.UseNpgsql(connectionString));
 
-builder.Services.AddDbContext<TacTourDbContext>(options => options.UseNpgsql(conexao));
-
-
-//* Repositories
 builder.Services.AddScoped<ITipoDestinoRepository, TipoDestinoRepository>();
 builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
+builder.Services.AddScoped<IPacoteRepository, PacoteRepository>();
+builder.Services.AddScoped<IReservaRepository, ReservaRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
+builder.Services.AddScoped<TipoDestinoService>();
+builder.Services.AddScoped<DestinoService>();
+builder.Services.AddScoped<PacoteService>();
+builder.Services.AddScoped<ReservaService>();
+builder.Services.AddScoped<DashboardService>();
+builder.Services.AddScoped<EquipaService>();
 
-//* Uses Cases
-builder.Services.AddTransient<CadastrarTipoDestino>();
-builder.Services.AddTransient<ActualizarTipoDestino>();
-builder.Services.AddTransient<DeletarTipoDestino>();
-builder.Services.AddTransient<PesquisarTipoDestinoId>();
-builder.Services.AddTransient<PesquisarTipoDestinoTexto>();
-builder.Services.AddTransient<ListagemTipoDestino>();
-
-
-
-// ========== App ==========
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Frontend", policy =>
+    {
+        policy.WithOrigins(
+                "http://localhost:5173",
+                "http://127.0.0.1:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
-// Configuração para Development
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();       // Gera o documento /openapi/v1.json
-
-    // === IMPORTANTE: Isto ativa a interface Swagger UI ===
+    app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("/openapi/v1.json", "TacTourWebplatform API v1");
-        options.RoutePrefix = "swagger";   // Para aceder em /swagger
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "TacTour API v1");
+        options.RoutePrefix = "swagger";
     });
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("Frontend");
 app.UseAuthorization();
-
 app.MapControllers();
-
-// Endpoint de teste simples (para confirmar que a API está viva)
-app.MapGet("/", () => "✅ API TacTourWebplatform está a funcionar!");
 
 app.Run();
