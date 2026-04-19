@@ -92,8 +92,6 @@ builder.Services.AddTransient<BuscarDestinoComActividades>();
 builder.Services.AddTransient<CadastrarImagemPacote>();
 builder.Services.AddTransient<ActualizarImagemPacote>();
 builder.Services.AddTransient<DeletarImagemPacote>();
-builder.Services.AddTransient<ListagemImagemPacote>();
-builder.Services.AddTransient<PesquisarImagemPacoteId>();
 builder.Services.AddTransient<ListarImagemPacotePorPacote>();
 
 
