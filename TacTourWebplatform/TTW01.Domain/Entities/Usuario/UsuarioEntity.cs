@@ -21,7 +21,7 @@ public class UsuarioEntity
     public string NomeUser { get; set; } = string.Empty;
 
     [Column("email")]
-    public string Email { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty; 
 
     [Column("telefone")]
     public string Telefone { get; set; } = string.Empty;
